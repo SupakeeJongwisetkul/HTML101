@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Page Search Toy </title>
 </head>
 <style>
   table, th, td {
     border:1px solid black;
     width: 600px;
     height: 40px;
+    
   }
   </style>
-  <body>
+  <style>
+    label, select,button {
+      
+      padding: 10px;
+    }
+    </style>
+
+
 <body>
 
+
 <h1>Search Toy</h1>
+
+
 
 <label for="Selectage">Select age:</label> 
 <label for="Selectgender">Select gender:</label>
@@ -31,12 +42,15 @@
   <option value="6+">6+</option>
 </select>
 
-<select name="Selectgender" id="Selectgender">
+
+
+<select name="Selectgender" id="Selectgender" style="position: relative;" style="left: 50%;" >
     <option value=""></option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
     <option value="Neutral">Neutral</option>
   </select>
+
 
 <p>X toys found</p>
 
