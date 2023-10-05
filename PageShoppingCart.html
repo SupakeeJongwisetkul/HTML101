@@ -6,7 +6,8 @@
 <style>
   table, th, td {
     border:1px solid black;
-    width: 700px;
+    
+    width: 100%;
     height: 40px;
     
   }
@@ -36,14 +37,16 @@
   </tr>
   <tr>
     <th>
-        <b>Toy Name<b>
-        <label> by Brand</label><br>
-        <label>Gender</label> <label>Age</label><br>
-        <label style="color: red;">In Store</label>
-        <label>/</label>
-        <label style="color: red;">Out of Stock</label>
-        <br>
-        <label style="color: rgb(32, 14, 236);">Delete</label>
+        <div style="float: left;">
+            <b>Toy Name<b>
+            <label> by Brand</label><br>
+            <label>Gender</label> <label>Age</label><br>
+            <label style="color: red;">In Store</label>
+            <label>/</label>
+            <label style="color: red;">Out of Stock</label>
+            <br>
+            <label style="color: rgb(32, 14, 236);">Delete</label>
+        </div>
 
 
     </th>
@@ -73,14 +76,17 @@
 
   <tr>
     <th>
-        <b>Toy Name<b>
-        <label> by Brand</label><br>
-        <label>Gender</label> <label>Age</label><br>
-        <label style="color: red;">In Store</label>
-        <label>/</label>
-        <label style="color: red;">Out of Stock</label>
-        <br>
-        <label style="color: rgb(32, 14, 236);">Delete</label>
+        <div style="float: left;">
+            <b>Toy Name<b>
+            <label> by Brand</label><br>
+            <label>Gender</label> <label>Age</label><br>
+            <label style="color: red;">In Store</label>
+            <label>/</label>
+            <label style="color: red;">Out of Stock</label>
+            <br>
+            <label style="color: rgb(32, 14, 236);">Delete</label>
+
+         </div>
 
 
     </th>
@@ -112,22 +118,33 @@
  
 </table>
 <br>
+<div style="float: left;">
+<label>Shipping Method : Kerry Express</label>
+<br> 
+<label >Shipping fee: 150.00THB</label> 
 
-<label>Shipping Method : Kerry Express</label> 
+</div>
+
+<div style="text-align: right;">
 <b>Subtotle (2 Items):</b>
 <b style="color: red;">200.00</b>
 <b>THB</b>
+</div>
 
-<br>
 
-<label>Shipping fee: 150.00THB</label> 
+
+
+
+<div style="text-align: right;">
 <b>Shipping Fee:</b>
 <b style="color: red;">150.00</b>
 <b>THB</b>
+</div>
 
 <br>
+<div style="text-align: right;">
 <button>Process to checkout</button>
-        
+</div>
 
 </body>
 </html>
