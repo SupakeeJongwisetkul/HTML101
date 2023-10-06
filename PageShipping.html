@@ -15,41 +15,75 @@
     label, select,button {
       
       padding: 10px;
+      margin: 0 3rem;
     }
+    .address {
+        justify-content: center;
+    }
+
+    .inputwidth{
+        width: 100%;
+    }
+    body{
+        
+        display: block;
+
+    }
+   
     </style>
-  <body>
+<h1>Shipping Address</h1>
+
 <body>
 
-<h1>Shipping Address</h1>
-<label>Full name</label><br>
-<input type="text" name="Full-name">
 
-<br>
-<label>Address 1</label><br>
-<input type="text" name="Address-1">
 
-<br>
-<label>Address 3</label><br>
-<input type="text" name="Address-2">
-<br>
+    <div >
+        <label>Full name</label><br>
 
-<label>City</label>
+        <div style="display: block;">
+            <input type="text" name="Full-name">
+        </div>
 
-<label>Province</label>
+        <br>
 
-<label>Post Code</label>
+        <br>
+        <label>Address 1</label><br>
+        <input type="text" name="Address-1">
 
-<br>
+        <br>
+        <label>Address 2</label><br>
+        <input type="text" name="Address-2">
+        <br>
 
-<input type="text" name="City">
+        <div class= "address" >
 
-<input type="text" name="Province">
+            <label>City</label>
 
-<input type="number" name="Post-Code">
+            <label>Province</label>
 
-<br>
-<button>Deliver to this adderss</button>
+        
+            <label>Post Code</label>
+            
 
+    </div>
+
+    <br>
+
+    <input type="text" name="City">
+
+    <input type="text" name="Province">
+
+
+
+    <input type="number" name="Post-Code">
+    </div>
+
+    <br>
+    <br>
+
+    <div style="text-align: center;">
+        <button >Deliver to this adderss</button>
+    </div>
 
 
 </body>
